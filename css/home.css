@@ -1,0 +1,18 @@
+.menu-bar {
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: black;
+	border: bold;
+	z-index: 1; /* stay on top */
+	overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+#search-section, #post-section{
+	right: 10px;
+	left: 10px;
+	position: relative;
+}
