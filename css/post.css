@@ -1,0 +1,106 @@
+/*Job positing section*/
+div#post-form {
+position: fixed;
+left: 35%;
+top: 5%;
+margin-left: -202px;
+font-family:'Raleway',sans-serif;
+background-color: #fff;
+border: 2px solid gray;
+border-radius: 10px;
+}
+
+.post-form, #post-form{
+	margin: 0 auto;
+	left: 50%;
+	width: 500px;
+	z-index: 1;
+}
+h3{
+	background-color: #9BEAF9;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	padding: 20px 50px;
+
+}
+#post-form input{
+	width: 400px;
+}
+img#close{
+	position: absolute;
+	right:-14px;
+	top: -14px;
+	cursor: pointer;
+}
+#post-form form input{
+	padding: 10px;
+	margin-top: 30px;
+	padding-left:40px;
+	border: 1px solid #ccc;
+
+}
+#post-form form textarea{
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding: 10px;
+	padding-left: 40px;
+	height: 80px;
+	border: 1px solid #ccc;
+}
+#post-form form {
+	margin: 0 auto;
+	left: 50%;
+}
+#post-field{
+	margin-top: 0 auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 80px;
+}
+#submit{
+	position: absolute;
+	padding: 10px 0;
+	bottom: 30px;
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #9BEAF9;
+	border: 1px solid #9BEAF9;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#name {
+background-image:url(/images/name.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#email {
+background-image:url(/images/mail.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#title {
+background-image:url(/images/title.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#phone {
+background-image:url(/images/phone.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#jobdesc {
+background-image:url(/images/jobdescription.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#companyName {
+background-image:url(/images/company.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+
+

@@ -15,7 +15,21 @@
 	
 </head>
 <body>
-
+	<div class="post-form">
+		<form id="post-form">
+			<h3 style="color: blue">Create your talent wanted poster</h3>
+			<p>Position Title<span style="color: red">*</span></p>
+			<input type="text" name="title">
+			<p>Company Name<span style="color: red">*</span></p>
+			<input type="text" name="companyName">
+			<p>Job Description<span style="color: red">*</span></p>
+			<textarea style="height: 400px; width: 400px;"></textarea>
+			<p>Contact Info</p>
+			<p>Email</p><input type="text" name="email">
+			<p>Phone</p><input type="number" name="phone">
+			<button type="submit">Post</button>
+		</form>
+	</div>
 	<script type="text/javascript">
 		var jobs = {"web developer": [{"titlePosition":"web developer","companyName":"Google", "jobDescription":"if you love JS, join us!","recruiterName":"Daniel Nguyen","email":"danieltn91@gmail.com"}],
 		
